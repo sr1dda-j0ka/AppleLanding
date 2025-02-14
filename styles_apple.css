@@ -1,0 +1,188 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    padding: 0 40px;
+    background-color: black;
+    color: white;
+    height: 44px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 17px;
+    display: flex;
+    position: fixed;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(206, 202, 202);
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", 
+    "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    
+    
+}
+.navbar a:hover{
+    color: white;
+    cursor: pointer;
+}
+.options{
+    padding: 0px 20px 0px 20px;
+    gap: 50px;
+    align-self: center;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.caption {
+    width: 100%;
+    background-color: #1d1d1f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 44px;
+
+}
+.caption a{
+    color: rgba(4, 110, 238, 0.989);
+    font-size: 14px;
+ }
+.hero {
+    background-image: url(hero.jpg);
+    height: 700px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button{
+    
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 999px;
+    border-color: rgb(9,109,231);
+    justify-items: center;
+    cursor: pointer;
+} 
+.hero button{
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+}
+.blue button{
+    margin-bottom: 60px;
+}
+
+.blue{
+    background-image: url(blue.png);
+    height: 700px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.airpods-banner{
+    background-image: url(airpodsbanner.jpg);
+    height: 650px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.airpods-banner button{
+    margin-left: 640px;
+    margin-bottom: 50px;
+}
+.small-banners {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.banner {
+    width: 45%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+.banner button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(9, 109, 231);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: rgb(7, 89, 190);
+}
+.footer{
+    background-color: #eaeaec;
+    color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul p{
+    margin-top: 70px;
+}
+.footer-message{
+    height: 10px;
+    text-align: center;
+    background-color: #eaeaec;
+}
+
+
+
+
+
+
+
+

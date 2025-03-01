@@ -1,7 +1,7 @@
 # AppleLanding
 # Apple Clone Website
 
-This is an Apple website clone built using HTML, CSS, and Font Awesome icons.
+This is an Apple Landing page clone built using HTML, CSS, and Font Awesome icons.
 
 ## Features
 - **Navigation Bar:** A fixed navbar with Apple-style menu links.
